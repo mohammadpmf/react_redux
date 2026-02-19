@@ -1,18 +1,18 @@
-import Test  from "./Test.jsx"
 import Header from "./Header.jsx"
 import CourseList from "./CourseList.jsx"
+import Banner from "./Banner.jsx"
 
 function App() {
 
   return (
     <div>
       <Header />
-      <h1>
-        Drdjango
-      </h1>
-      <p>React course</p>
+      <Banner 
+      title= "My Title"
+      description = "My Description"
+      numOfStudents = {1234}
+      />
       <CourseList />
-      <Test />
     </div>
   )
 }
