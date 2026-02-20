@@ -8,13 +8,13 @@ function App() {
   return (
     <div>
       <Counter />
-      {/* <Header />
+      <Header />
       <Banner 
       title= "My Title"
       description = "My Description"
       numOfStudents = {1234}
       />
-      <CourseList /> */}
+      <CourseList />
     </div>
   )
 }
