@@ -1,3 +1,4 @@
+import Form from "./Form.jsx"
 import Header from "./Header.jsx"
 import CourseList from "./CourseList.jsx"
 import Banner from "./Banner.jsx"
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <div>
+      <Form />
       <Counter />
       <Header />
       <Banner 
