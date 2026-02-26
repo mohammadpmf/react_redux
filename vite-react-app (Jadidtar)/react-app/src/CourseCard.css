@@ -1,0 +1,10 @@
+.container {
+    border: 1px solid brown;
+    padding: 8px;
+}
+.margin {
+    margin: 12px;
+}
+.selected{
+    background-color: aquamarine;
+}
