@@ -6,7 +6,7 @@ function Users() {
   const [error, setError] = useState(false)
   const [id, setId] = useState("")
 
-  // useEffect(() => {
+  // useEffect(() => {p
   //   fetch("http://127.0.0.1:8000/movies/")
   //     .then((res) => res.json())
   //     .then((json) => { setUsers(json.results); setError(false); })
